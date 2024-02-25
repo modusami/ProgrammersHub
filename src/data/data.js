@@ -59,7 +59,7 @@ const YOUTUBER_DATA = [
     },
     // done
     {
-        "name": "Tech With Time",
+        "name": "Tech With Tim",
         "subscribers": "1.45M",
         "link": "https://www.youtube.com/@TechWithTim",
         "img": "../assets/techwithtim.jpg"
