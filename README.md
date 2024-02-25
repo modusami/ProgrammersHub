@@ -2,9 +2,12 @@
 
 Submitted by: **Michael-Andre Odusami**
 
-This web app: **insert description**
+This web app: **Welcome to Programmer Central! This is the central hub for wonderful, helpful programmer youtube channels to visit to learn, watch, and code along to!**
 
-Time spent: **X** hours spent in total
+Time spent: **
+25 - mins (1)
+25 - mins (2)
+** hours spent in total
 
 ## Required Features
 
@@ -41,7 +44,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Michael-Andre Odusami
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
