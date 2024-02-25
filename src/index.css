@@ -41,10 +41,150 @@ body {
 #subtitle {
     font-style: italic;
     font-size: 1em;
+    text-align: center;
 }
+
 
 #card-grid {
     background-color: white;
     padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.card {
+    position: relative;
     border: 1px solid black;
+    display: flex;
+    padding: 1em;
+    width: inherit;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 3px rgb(235, 235, 235);
+}
+
+.banner {
+    position: absolute;
+    top: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 10px;
+    transform: perspective(20px) rotateX(-20deg);
+}
+
+
+.card-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-link-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-name {
+    font-size: 1.2em;
+}
+
+.card-sub {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.has-M {
+    font-weight: bold;
+    color: red
+}
+
+.card {}
+
+@keyframes floatingCard {
+    0% {
+
+        width: 300px;
+        height: 300px;
+    }
+
+    50% {
+
+        width: 310px;
+        height: 310px;
+    }
+
+    100% {
+
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.card:hover {
+    animation: floatingCard 1.5s ease-in-out infinite;
+}
+
+@media screen and (max-width:1000px) {
+
+    #title {
+        font-size: 2em;
+    }
+
+    #subtitle {
+        font-size: 0.75em;
+    }
+
+    .card-container {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    @keyframes floatingCard {
+        0% {
+
+            width: 200px;
+            height: 200px;
+        }
+
+        50% {
+
+            width: 210px;
+            height: 210px;
+        }
+
+        100% {
+
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .card {
+        padding: 0.5em;
+    }
+
+    .card-link-img {
+        border-radius: 50%;
+        width: 50%;
+    }
+
+    .card-name {
+        font-size: 1em;
+    }
+
+    .card-sub {
+        font-size: 1em;
+        font-style: italic;
+    }
 }
