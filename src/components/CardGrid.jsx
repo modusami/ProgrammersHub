@@ -1,6 +1,6 @@
 
 
-function CardGrid() {
+const CardGrid = () => {
     return (
         <h1>Card Grid</h1>
     )
