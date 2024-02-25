@@ -6,8 +6,10 @@ function App() {
 
   return (
     <>
-      <Header />
-      <CardGrid />
+      <div className="container">
+        <Header />
+        <CardGrid />
+      </div>
     </>
   )
 }
