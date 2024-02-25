@@ -1,4 +1,5 @@
 import YOUTUBE_DATA from "../data/data";
+import Card from "./Card";
 
 const CardGrid = () => {
     // dynamically create cards with props
