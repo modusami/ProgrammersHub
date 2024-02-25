@@ -55,19 +55,20 @@ body {
 
 .card-container {
     width: 300px;
-    height: 300px;
+    height: 400px;
     margin: 20px;
 }
 
 .card {
     position: relative;
-    border: 1px solid black;
+    border: 1px solid rgb(211, 211, 211);
     display: flex;
-    padding: 1em;
+    padding: 2em;
     width: inherit;
     height: inherit;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
     align-items: center;
     border-radius: 20px;
     box-shadow: 5px 5px 10px 3px rgb(235, 235, 235);
@@ -96,11 +97,14 @@ body {
 
 .card-name {
     font-size: 1.2em;
+    text-align: center;
+    width: 100%;
 }
 
 .card-sub {
     font-size: 1em;
     font-style: italic;
+    text-align: center;
 }
 
 .has-M {
@@ -108,25 +112,35 @@ body {
     color: red
 }
 
-.card {}
+.card-button {
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.card-button:hover {
+    cursor: pointer;
+}
 
 @keyframes floatingCard {
     0% {
 
         width: 300px;
-        height: 300px;
+
     }
 
     50% {
 
         width: 310px;
-        height: 310px;
+
     }
 
     100% {
 
         width: 300px;
-        height: 300px;
+
     }
 }
 
@@ -154,19 +168,19 @@ body {
         0% {
 
             width: 200px;
-            height: 200px;
+
         }
 
         50% {
 
             width: 210px;
-            height: 210px;
+
         }
 
         100% {
 
             width: 200px;
-            height: 200px;
+
         }
     }
 
