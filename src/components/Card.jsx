@@ -8,6 +8,9 @@ const Card = (props) => {
             </a>
             <h1 className="card-name">{props.name}</h1>
             <h3 className={"card-sub" + (props.subs.includes("M") ? " has-M" : "")}>Subscribers: {props.subs}</h3>
+            <a href={props.link} target="_blank">
+                <button type="button" className="card-button">View Channel</button>
+            </a>
 
         </div>
     )
