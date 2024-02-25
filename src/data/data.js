@@ -18,7 +18,7 @@ const YOUTUBER_DATA = [
     {
         "name": "freecodecamp",
         "subscribers": "9.12M",
-        "link": "https://wwwfyr.youtube.com/@freecodecamp",
+        "link": "https://www.youtube.com/@freecodecamp",
         "img": "ytlogos/freecodecamp.jpg"
     },
 
@@ -45,10 +45,10 @@ const YOUTUBER_DATA = [
     },
     // done
     {
-        "name": "Web Dev Cody",
-        "subscribers": "194k",
-        "link": "https://www.youtube.com/@WebDevCody",
-        "img": "ytlogos/webdevcody.jpg"
+        "name": "Programming With Mosh",
+        "subscribers": "3.78M",
+        "link": "https://www.youtube.com/@programmingwithmosh",
+        "img": "ytlogos/mosh.jpg"
     },
     // done
     {
