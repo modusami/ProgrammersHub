@@ -34,7 +34,7 @@ const YOUTUBER_DATA = [
         "name": "Fireship",
         "subscribers": "2.84M",
         "link": "https://www.youtube.com/@Fireship",
-        "img": "ytlogos/fireshipfire.jpg"
+        "img": "ytlogos/fireship.jpg"
     },
     // done
     {
