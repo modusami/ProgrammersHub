@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&display=swap');
 
+:root {
+    --title-font-size: 3.2em;
+    --subtitle-font-size: 1em;
+    --img-card-size: 100%;
+    --container-size: 85%;
+    --card-padding: 2em;
+    --card-container-w: 300px;
+    --card-container-h: 400px;
+    --card-title-size: 100%;
+    --card-subs-size: 75%;
+    --card-button-size: 100%;
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -35,19 +48,18 @@ body {
 #title {
     font-weight: 700;
     font-family: "Recursive", sans-serif;
-    font-size: 3.2em;
+    font-size: var(--title-font-size);
 }
 
 #subtitle {
     font-style: italic;
-    font-size: 1em;
+    font-size: var(--subtitle-font-size);
     text-align: center;
 }
 
 
 #card-grid {
     background-color: white;
-    padding: 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -60,10 +72,12 @@ body {
 }
 
 .card {
+    width: 100%;
+    height: 100%;
     position: relative;
     border: 1px solid rgb(211, 211, 211);
     display: flex;
-    padding: 2em;
+    padding: var(--card-padding);
     width: inherit;
     height: inherit;
     flex-direction: column;
@@ -96,13 +110,12 @@ body {
 }
 
 .card-name {
-    font-size: 1.2em;
+    font-size: var(--card-title-size);
     text-align: center;
-    width: 100%;
 }
 
 .card-sub {
-    font-size: 1em;
+    font-size: var(--card-subs-size);
     font-style: italic;
     text-align: center;
 }
@@ -118,87 +131,15 @@ body {
     border-radius: 10%;
     padding: 10px;
     background-color: rgba(255, 0, 0, 0.8);
+    width: var(--card-button-size);
+    text-align: center;
+    margin: 0 auto;
 }
 
 .card-button:hover {
     cursor: pointer;
 }
 
-@keyframes floatingCard {
-    0% {
-
-        width: 300px;
-
-    }
-
-    50% {
-
-        width: 310px;
-
-    }
-
-    100% {
-
-        width: 300px;
-
-    }
-}
-
 .card:hover {
-    animation: floatingCard 1.5s ease-in-out infinite;
-}
-
-@media screen and (max-width:1000px) {
-
-    #title {
-        font-size: 2em;
-    }
-
-    #subtitle {
-        font-size: 0.75em;
-    }
-
-    .card-container {
-        width: 200px;
-        height: 200px;
-        margin: 10px;
-    }
-
-    @keyframes floatingCard {
-        0% {
-
-            width: 200px;
-
-        }
-
-        50% {
-
-            width: 210px;
-
-        }
-
-        100% {
-
-            width: 200px;
-
-        }
-    }
-
-    .card {
-        padding: 0.5em;
-    }
-
-    .card-link-img {
-        border-radius: 50%;
-        width: 50%;
-    }
-
-    .card-name {
-        font-size: 1em;
-    }
-
-    .card-sub {
-        font-size: 1em;
-        font-style: italic;
-    }
+    box-shadow: 5px 5px 10px 3px rgb(172, 172, 172);
 }
