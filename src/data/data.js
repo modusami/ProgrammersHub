@@ -83,12 +83,6 @@ const YOUTUBER_DATA = [
         "link": "https://www.youtube.com/@jomakaze",
         "img": "ytlogos/jomatech.jpg"
     },
-    {
-        "name": "Michael-Andre Odusami (Owner)",
-        "img": "ytlogos/odusami.jpeg",
-        "subscribers": "None",
-        "link": "https://www.linkedin.com/in/odusami03",
-    }
 ]
 
 export default YOUTUBER_DATA;
