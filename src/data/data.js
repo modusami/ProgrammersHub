@@ -76,6 +76,19 @@ const YOUTUBER_DATA = [
         "subscribers": "1.46M",
         "link": "https://www.youtube.com/@TechLead",
         "img": "ytlogos/techlead.jpg"
+    },
+    {
+        "name": "JomaTech",
+        "subscribers": "2.28M",
+        "link": "https://www.youtube.com/@jomakaze",
+        "img": "ytlogos/jomatech.jpg"
+    },
+    {
+        "name": "Michael-Andre Odusami (Owner)",
+        "img": "ytlogos/odusami.jpeg",
+        "subscribers": "None",
+        "link": "https://www.linkedin.com/in/odusami03",
     }
 ]
+
 export default YOUTUBER_DATA;
