@@ -49,6 +49,8 @@ body {
     font-weight: 700;
     font-family: "Recursive", sans-serif;
     font-size: var(--title-font-size);
+    width: 100%;
+    text-align: center;
 }
 
 #subtitle {
@@ -66,9 +68,7 @@ body {
 }
 
 .card-container {
-    width: 300px;
-    height: 400px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .card {
@@ -142,4 +142,8 @@ body {
 
 .card:hover {
     box-shadow: 5px 5px 10px 3px rgb(172, 172, 172);
+}
+
+.card:hover .banner {
+    background-color: rgb(255, 224, 20);
 }
