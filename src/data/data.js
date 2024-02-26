@@ -71,5 +71,11 @@ const YOUTUBER_DATA = [
         "link": "https://www.youtube.com/@bigboxSWE",
         "img": "ytlogos/bigboxswe.jpg"
     },
+    {
+        "name": "TechLead",
+        "subscribers": "1.46M",
+        "link": "https://www.youtube.com/@TechLead",
+        "img": "ytlogos/techlead.jpg"
+    }
 ]
 export default YOUTUBER_DATA;
