@@ -4,10 +4,7 @@ Submitted by: **Michael-Andre Odusami**
 
 This web app: **Welcome to Programmer Central! This is the central hub for wonderful, helpful programmer youtube channels to visit to learn, watch, and code along to!**
 
-Time spent: **
-25 - mins (1)
-25 - mins (2)
-** hours spent in total
+Time spent: **2 hours** hours spent in total
 
 ## Required Features
 
