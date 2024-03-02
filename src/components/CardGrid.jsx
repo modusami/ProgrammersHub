@@ -10,6 +10,7 @@ const CardGrid = () => {
                     <div key={i} className="card-container">
                         <Card name={value.name}
                             subs={value.subscribers}
+                            specialty={value.specialty}
                             link={value.link}
                             image={value.img} />
                     </div>
