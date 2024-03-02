@@ -69,6 +69,7 @@ body {
 
 .card-container {
     margin: 10px;
+    width: 320px;
 }
 
 .card {
@@ -97,6 +98,10 @@ body {
     transform: perspective(20px) rotateX(-20deg);
 }
 
+.card-desc {
+    font-weight: bold;
+    text-transform: capitalize;
+}
 
 .card-link {
     display: flex;
@@ -146,4 +151,29 @@ body {
 
 .card:hover .banner {
     background-color: rgb(255, 224, 20);
+}
+
+@media screen and (max-width: 700px) and (min-width: 200px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    #title {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    #subtitle {
+        font-size: 0.75em;
+    }
+
+    #header-div {
+        border-bottom: 2px solid black;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
 }
